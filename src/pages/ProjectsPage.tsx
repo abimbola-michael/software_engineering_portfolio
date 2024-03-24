@@ -43,7 +43,7 @@ export default function ProjectsPage() {
             {project.images.map((image) => {
               return (
                 <img
-                  src={`src/${image}`}
+                  src={image}
                   key={image}
                   className="w-full h-full rounded-lg"
                   style={{ objectFit: "cover" }}
