@@ -1,5 +1,5 @@
 import { MenuOutline } from "react-ionicons";
-import { jobRole } from "../data";
+//import { jobRole } from "../data";
 import AppLink from "./AppLink";
 import { useState } from "react";
 
@@ -11,7 +11,7 @@ export default function Header() {
   // }
   return (
     <header className="flex items-center justify-between py-2 px-[5%] cursor-pointer">
-      <p className="font-bold text-xl">{jobRole}</p>
+      <p className="font-bold text-xl">Michael</p>
       <div className="justify-start group">
         <div className="md:hidden">
           <MenuOutline />

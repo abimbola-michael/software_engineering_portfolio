@@ -25,7 +25,7 @@ export default function ContactPage() {
         <SocialMediaIcon name="gmail" link={socialMedialinks[0]} />
         <SocialMediaIcon name="github" link={socialMedialinks[1]} />
         <SocialMediaIcon name="linkedin" link={socialMedialinks[2]} />
-        <SocialMediaIcon name="twitter" link={socialMedialinks[3]} />
+        {/* <SocialMediaIcon name="twitter" link={socialMedialinks[3]} /> */}
         <SocialMediaIcon name="facebook" link={socialMedialinks[4]} />
         <SocialMediaIcon name="instagram" link={socialMedialinks[5]} />
       </div>

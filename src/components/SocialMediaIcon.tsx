@@ -4,7 +4,7 @@ import {
   LogoGoogle,
   LogoInstagram,
   LogoLinkedin,
-  LogoTwitter,
+  // LogoTwitter,
 } from "react-ionicons";
 import { primaryColor } from "../data";
 
@@ -28,9 +28,10 @@ export default function SocialMediaIcon({
         <LogoGithub color={primaryColor} style={{ width: 20, height: 20 }} />
       ) : name === "linkedin" ? (
         <LogoLinkedin color={primaryColor} style={{ width: 20, height: 20 }} />
-      ) : name === "twitter" ? (
-        <LogoTwitter color={primaryColor} style={{ width: 20, height: 20 }} />
-      ) : name === "facebook" ? (
+      ) : //     : name === "twitter" ? (
+      // <LogoTwitter color={primaryColor} style={{ width: 20, height: 20 }} />
+      //     )
+      name === "facebook" ? (
         <LogoFacebook color={primaryColor} style={{ width: 20, height: 20 }} />
       ) : name === "instagram" ? (
         <LogoInstagram color={primaryColor} style={{ width: 20, height: 20 }} />

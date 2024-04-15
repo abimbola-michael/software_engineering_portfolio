@@ -30,7 +30,7 @@ export const socialMediaIcons = [
   LogoGoogle,
   LogoGithub,
   LogoLinkedin,
-  LogoTwitter,
+  // LogoTwitter,
   LogoFacebook,
   LogoInstagram,
 ];
@@ -39,7 +39,7 @@ export const cvLink =
 export const socialMedialinks = [
   "mailto:abimbolamichael100@gmail.com",
   "https://github.com/abimbola-michael",
-  "https://www.linkedin.com/in/abimbola-michael-227181193",
+  "https://www.linkedin.com/in/michael-abimbola/",
   "https://twitter.com/urboihotshot?t=oscXe8CdJKyd8YxOqY6sIQ&s=09",
   "https://www.facebook.com/hotty.hotshot",
   "https://www.instagram.com/urboi_hotshot",
