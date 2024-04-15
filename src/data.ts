@@ -15,11 +15,11 @@ export const email = "abimbolamichael100@gmail.com";
 export const name = "Abimbola Michael";
 
 export const aboutMe =
-  "I'm Abimbola Michael, a passionate Flutter developer with 2 years of experience in building stunning and performant mobile applications. With a keen eye for design and a knack for problem-solving, I specialize in crafting beautiful user interfaces and seamless user experiences using Flutter. My journey with Flutter began 2 years ago when I discovered its power to create cross-platform mobile applications with a single codebase. Since then, I've been hooked on the framework and have had the opportunity to work on a variety of projects spanning different industries. Throughout my career, I've had the pleasure of collaborating with talented teams to bring innovative ideas to life. Whether it's creating pixel-perfect UI designs, optimizing app performance, or implementing complex features, I thrive on the challenge of pushing the boundaries of what's possible with Flutter. Let's build something amazing together!";
+  "Hello! I'm Abimbola Michael, a passionate and ambitious software engineer with a strong foundation in computer science and a keen interest in frontend and backend. I recently completed a rewarding 1-year internship where I gained valuable hands-on experience and honed my technical skills.";
 
 export const introMessage =
-  "Welcome to my Flutter app developer portfolio, where innovation meets imagination! With a passion for crafting exceptional mobile applications, I strive to bring unique and captivating digital experiences to life.";
-export const jobRole = "Flutter Developer";
+  "Welcome to my Software Engineering portfolio, where innovation meets imagination! With a passion for crafting exceptional mobile and web applications, creating amazing solutions to problems, I strive to bring unique and captivating digital experiences to life.";
+export const jobRole = "Software Engineer";
 export const allRolles = [
   "Flutter Developer",
   //"Java/Kotlin Developer",
@@ -96,13 +96,45 @@ export const projects = [
     "https://github.com/abimbola-michael/portfolio",
     ["assets/images/portfolio.png"]
   ),
+  new Project(
+    "Portfolio React",
+    "My Portfolio website built with React",
+    "https://abimbolamichael.vercel.app/",
+    ["assets/images/portfolio_react.png"]
+  ),
+  new Project(
+    "Airbnb Clone",
+    "A clone of AirBnB which is broken into 4 versions",
+    "https://github.com/abimbola-michael/AirBnB_clone_v4",
+    ["assets/images/hbnb.png"]
+  ),
+  new Project(
+    "Fix and Get",
+    "A final portfolio project for a ALX Foundation section",
+    "https://fix-and-get-portfolio-project.vercel.app/",
+    ["assets/images/fixandget.png"]
+  ),
+  new Project(
+    "Talking GPT",
+    "A final portfolio project for a ALX Specialization section",
+    "https://github.com/abimbola-michael/Talking-GPT",
+    ["assets/images/talkinggpt.png"]
+  ),
 ];
 export const skills = [
   new Skill("Mobile Development", ["Flutter", "Dart"]),
+  new Skill("Web Development", [
+    "React",
+    "NextJs",
+    "HTML",
+    "CSS",
+    "JavaScript",
+  ]),
+  new Skill("Backend", ["Node", "Flask", "Express"]),
+
   new Skill("Database", ["Firebase", "Mongo DB"]),
-  new Skill("State Management", ["Riverpod", "Bloc"]),
+  new Skill("State Management", ["Riverpod", "Bloc", "Provider", "Redux"]),
   new Skill("Version Control", ["Git and GitHub"]),
-  new Skill("Other Stacks", ["React", "Nodejs and Express", "Flask"]),
   new Skill("Programming Languages", [
     "Dart",
     "JavaScript",
