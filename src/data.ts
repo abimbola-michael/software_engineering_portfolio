@@ -4,7 +4,7 @@ import {
   LogoGoogle,
   LogoInstagram,
   LogoLinkedin,
-  LogoTwitter,
+  // LogoTwitter,
 } from "react-ionicons";
 import Project from "./models/project";
 import Skill from "./models/skill";
