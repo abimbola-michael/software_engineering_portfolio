@@ -55,10 +55,21 @@ export const projects = [
   ),
   new Project(
     "WhatsHot",
-
     "A social media app like WhatsApp, Facebook, Twitter and Instagram",
     "https://youtube.com/shorts/IL9t14X54KM?feature=share",
     ["assets/images/whatshot3.jpg", "assets/images/whatshot2.jpg"]
+  ),
+  new Project(
+    "NC Play",
+    "A music streaming app incorporated with NC Crypto Coin",
+    "https://github.com/Emusoft-Inc/ncplay-app",
+    ["assets/images/ncplay1.jpg", "assets/images/ncplay2.jpg"]
+  ),
+  new Project(
+    "Tunes Messenger",
+    "A messenger app for chating and sharing of tunes",
+    "https://github.com/Emusoft-Inc/tunemessenger-frontend-app",
+    ["assets/images/tunesmess1.jpg", "assets/images/tunesmess2.jpg"]
   ),
   new Project(
     "Calcu8",
